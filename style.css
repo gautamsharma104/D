@@ -1,0 +1,110 @@
+
+body{
+   background-color:burlywood;
+   
+}
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    color: brown;
+  }
+  .maincontainer {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row; /* Stack the images vertically */
+    align-items: center; 
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+  .images {
+    /* Optionally, you can set a max-width for the image containers */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(147, 9, 41);
+    width:150px;
+    height: 150px;
+    font-size: 70px;
+     cursor: pointer;
+
+    text-align: center;
+    border: 5px solid black;
+   
+  }
+  .a{
+      background-image:url(images/images1.jpg);
+      background-position:center ;
+      background-repeat: no-repeat;
+      opacity: 0.5;
+      
+  }
+  .b{
+    background-image:url(images/images2.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+.c{
+    background-image:url(images/images3.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+.d{
+    background-image:url(images/images4.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+.e{
+    background-image:url(images/images5.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+.f{
+    background-image:url(images/images5.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+.footer{
+    display: flex;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    color: brown;
+}
+
+
+/* ----------------------------- */
+.box{
+    display: flex;
+    border: 2px solid green;
+    height:100px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    overflow:hidden ;
+    padding: 15px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+
